@@ -6,6 +6,8 @@
 
 Zen Focus brings the beloved Raycast / Alfred workflow directly into your web browser. Hit a single global shortcut to instantly summon a floating command palette to search tabs, history, bookmarks, or utilize built-in productivity tools.
 
+![Zen Focus Screenshot](screenshot.png)
+
 ## ✨ Core Features
 
 - **Blazing Fast**: Injects natively via Shadow DOM so it appears without the input lag typical of browser action popups.

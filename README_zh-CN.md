@@ -6,6 +6,8 @@
 
 Zen Focus 是一款为效率控量身定制的 Chrome 浏览器插件。它将类似于 Raycast 或 Alfred 的使用体验带入了你的网页中。按下快捷键即可唤醒浮动命令面板，瞬间检索、切换标签页，翻看历史记录、书签，或使用内置的黑科技效率插件！
 
+![Zen Focus Screenshot](screenshot.png)
+
 ## ✨ 核心特性
 
 - **极致速度**：基于 Shadow DOM 直接注入当前页面，告别传统 Extension Popup 弹窗的卡顿感和加载延迟问题。
