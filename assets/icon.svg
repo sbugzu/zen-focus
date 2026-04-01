@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="#ffffff" fill-opacity="0.95" stroke="#cbd5e1" stroke-width="6" />
+  
+  <!-- The > symbol -->
+  <path d="M 190 190 L 270 256 L 190 322" fill="none" stroke="#475569" stroke-width="36" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- The _ symbol -->
+  <line x1="290" y1="322" x2="350" y2="322" stroke="#3b82f6" stroke-width="36" stroke-linecap="round" />
+</svg>

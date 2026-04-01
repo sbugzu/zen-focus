@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "~*": ["./*"]
+    },
+    "baseUrl": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "target": "ES6"
+  },
+  "include": [".plasmo/index.d.ts", "./**/*.ts", "./**/*.tsx"],
+  "exclude": ["node_modules"]
+}

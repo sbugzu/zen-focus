@@ -1,0 +1,52 @@
+{
+  "name": "zen-focus",
+  "displayName": "Zen Focus",
+  "version": "1.0.0",
+  "description": "A lightning-fast command palette for your browser cache, tabs, and more.",
+  "license": "ISC",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "manifest": {
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "permissions": [
+      "tabs",
+      "bookmarks",
+      "history",
+      "search",
+      "storage"
+    ],
+    "commands": {
+      "toggle-palette": {
+        "suggested_key": {
+          "default": "Alt+Space",
+          "mac": "Alt+Space"
+        },
+        "description": "Toggle Command Palette"
+      }
+    }
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "cmdk": "^1.1.1",
+    "lucide-react": "^1.7.0",
+    "plasmo": "^0.90.5",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.38",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^6.0.2"
+  }
+}
